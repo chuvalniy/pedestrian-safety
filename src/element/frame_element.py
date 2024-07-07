@@ -1,4 +1,4 @@
-from base_element import BaseElement
+from ..element.base_element import BaseElement
 import numpy as np
 
 

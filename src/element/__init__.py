@@ -1,4 +1,6 @@
-from .base_element import *
-from .frame_element import *
-from .track_element import *
-from .video_end_break_element import *
+from .base_element import BaseElement
+from .frame_element import FrameElement
+from .track_element import TrackElement
+from .video_end_break_element import VideoEndBreakElement
+
+__all__ = ['BaseElement', 'FrameElement', 'TrackElement', 'VideoEndBreakElement']
